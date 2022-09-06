@@ -1,0 +1,24 @@
+0000000000000000000000000000000000000000 b587bbfaa6ac35d529afae0941612f48367bfc4e Aakash Tyagi <aakash.tyagi@codingninjas.in> 1587554282 +0530	commit (initial): Initialize project using Create React App
+b587bbfaa6ac35d529afae0941612f48367bfc4e d466dfa269b10aa16c5c8f4b31d68ea0c4b9150c Aakash Tyagi <aakash.tyagi@codingninjas.in> 1587555911 +0530	commit: Project setup
+d466dfa269b10aa16c5c8f4b31d68ea0c4b9150c d466dfa269b10aa16c5c8f4b31d68ea0c4b9150c Aakash Tyagi <aakash.tyagi@codingninjas.in> 1587559377 +0530	reset: moving to HEAD
+d466dfa269b10aa16c5c8f4b31d68ea0c4b9150c d466dfa269b10aa16c5c8f4b31d68ea0c4b9150c Aakash Tyagi <aakash.tyagi@codingninjas.in> 1587559553 +0530	reset: moving to HEAD
+d466dfa269b10aa16c5c8f4b31d68ea0c4b9150c 9bc2aec2f0535b6af5c5922fa618be22f23c3562 Aakash Tyagi <aakash.tyagi@codingninjas.in> 1587560221 +0530	commit: Added store
+9bc2aec2f0535b6af5c5922fa618be22f23c3562 9bc2aec2f0535b6af5c5922fa618be22f23c3562 Aakash Tyagi <aakash.tyagi@codingninjas.in> 1587561645 +0530	reset: moving to HEAD
+9bc2aec2f0535b6af5c5922fa618be22f23c3562 54355272b25b8c2328e957df8cdf9854efce28e7 Aakash Tyagi <aakash.tyagi@codingninjas.in> 1587562350 +0530	commit: Fetching posts
+54355272b25b8c2328e957df8cdf9854efce28e7 54355272b25b8c2328e957df8cdf9854efce28e7 Aakash Tyagi <aakash.tyagi@codingninjas.in> 1587563263 +0530	reset: moving to HEAD
+54355272b25b8c2328e957df8cdf9854efce28e7 54355272b25b8c2328e957df8cdf9854efce28e7 Aakash Tyagi <aakash.tyagi@codingninjas.in> 1587564098 +0530	reset: moving to HEAD
+54355272b25b8c2328e957df8cdf9854efce28e7 54355272b25b8c2328e957df8cdf9854efce28e7 Aakash Tyagi <aakash.tyagi@codingninjas.in> 1587564322 +0530	reset: moving to HEAD
+54355272b25b8c2328e957df8cdf9854efce28e7 5c0684d018da346293e879a48227fae25b7f8cd2 Aakash Tyagi <aakash.tyagi@codingninjas.in> 1587565002 +0530	commit: posts-ui
+5c0684d018da346293e879a48227fae25b7f8cd2 970669a6ae07719dfd3f9bbc230a74537c62d6db Aakash Tyagi <aakash.tyagi@codingninjas.in> 1587661002 +0530	commit: Add propTypes
+970669a6ae07719dfd3f9bbc230a74537c62d6db 970669a6ae07719dfd3f9bbc230a74537c62d6db Aakash Tyagi <aakash.tyagi@codingninjas.in> 1587661719 +0530	reset: moving to HEAD
+970669a6ae07719dfd3f9bbc230a74537c62d6db e885921c51f7765adba4a3086820c358c50edb31 Aakash Tyagi <aakash.tyagi@codingninjas.in> 1587662078 +0530	commit: Add navbar
+e885921c51f7765adba4a3086820c358c50edb31 d466dfa269b10aa16c5c8f4b31d68ea0c4b9150c Aakash Tyagi <aakash.tyagi@codingninjas.in> 1587676614 +0530	checkout: moving from master to d466dfa269b10aa16c5c8f4b31d68ea0c4b9150c
+d466dfa269b10aa16c5c8f4b31d68ea0c4b9150c e885921c51f7765adba4a3086820c358c50edb31 Aakash Tyagi <aakash.tyagi@codingninjas.in> 1587676680 +0530	checkout: moving from d466dfa269b10aa16c5c8f4b31d68ea0c4b9150c to master
+e885921c51f7765adba4a3086820c358c50edb31 9bc2aec2f0535b6af5c5922fa618be22f23c3562 Aakash Tyagi <aakash.tyagi@codingninjas.in> 1587676688 +0530	checkout: moving from master to 9bc2aec2f0535b6af5c5922fa618be22f23c3562
+9bc2aec2f0535b6af5c5922fa618be22f23c3562 e885921c51f7765adba4a3086820c358c50edb31 Aakash Tyagi <aakash.tyagi@codingninjas.in> 1587676741 +0530	checkout: moving from 9bc2aec2f0535b6af5c5922fa618be22f23c3562 to master
+e885921c51f7765adba4a3086820c358c50edb31 54355272b25b8c2328e957df8cdf9854efce28e7 Aakash Tyagi <aakash.tyagi@codingninjas.in> 1587676749 +0530	checkout: moving from master to 54355272b25b8c2328e957df8cdf9854efce28e7
+54355272b25b8c2328e957df8cdf9854efce28e7 e885921c51f7765adba4a3086820c358c50edb31 Aakash Tyagi <aakash.tyagi@codingninjas.in> 1587676883 +0530	checkout: moving from 54355272b25b8c2328e957df8cdf9854efce28e7 to master
+e885921c51f7765adba4a3086820c358c50edb31 5c0684d018da346293e879a48227fae25b7f8cd2 Aakash Tyagi <aakash.tyagi@codingninjas.in> 1587676890 +0530	checkout: moving from master to 5c0684d018da346293e879a48227fae25b7f8cd2
+5c0684d018da346293e879a48227fae25b7f8cd2 e885921c51f7765adba4a3086820c358c50edb31 Aakash Tyagi <aakash.tyagi@codingninjas.in> 1587676922 +0530	checkout: moving from 5c0684d018da346293e879a48227fae25b7f8cd2 to master
+e885921c51f7765adba4a3086820c358c50edb31 970669a6ae07719dfd3f9bbc230a74537c62d6db Aakash Tyagi <aakash.tyagi@codingninjas.in> 1587676929 +0530	checkout: moving from master to 970669a6ae07719dfd3f9bbc230a74537c62d6db
+970669a6ae07719dfd3f9bbc230a74537c62d6db e885921c51f7765adba4a3086820c358c50edb31 Aakash Tyagi <aakash.tyagi@codingninjas.in> 1587676966 +0530	checkout: moving from 970669a6ae07719dfd3f9bbc230a74537c62d6db to master
