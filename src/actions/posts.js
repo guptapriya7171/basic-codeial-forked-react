@@ -1,9 +1,9 @@
 import { UPDATE_POSTS } from "./actionTypes";
+import { APIUrl } from "../helpers/urls";
 
 export function fetchPosts() {
   return (dispatch) => {
-    const url =
-      "https://codeial.codingninjas.com:8000/api/v2/posts?page=1&limit=5";
+    const url = APIUrl.fetchPosts();
     fetch(url)
       .then((response) => {
         return response.json();
