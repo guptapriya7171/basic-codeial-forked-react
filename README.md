@@ -1,6 +1,7 @@
 # basic-codeial-forked-react
 A social networking website design using react.
-![Capture](https://user-images.githubusercontent.com/96413187/188589551-84e2a487-9800-4e4d-9a30-6f060a477e29.PNG)
+![Capture](https://user-images.githubusercontent.com/96413187/189339572-7b923664-0c93-4f48-b43a-ae06ec292450.PNG)
+
 
 LOGIN PAGE IMAGE
 
