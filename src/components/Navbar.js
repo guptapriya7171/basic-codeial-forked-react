@@ -1,9 +1,17 @@
 import React from "react";
+import {connect} from 'react-redux';
 import { Link } from "react-router-dom";
+import { logoutUser } from "../actions/auth";
 
-function Navbar(props) {
-  return (
-    <nav className="nav">
+class Navbar extends React.Component {
+  logOut = () => {
+    localStorage.removeItem('token');
+    this.props.dispatch(logoutUser());
+  };
+  render() {
+    const {auth} = this.props;
+    return(
+     <nav className="nav">
       <div className="left-div">
         <Link to="/">
           <img
@@ -39,30 +47,48 @@ function Navbar(props) {
           </ul>
         </div>
       </div>
+
       <div className="right-nav">
-        <div className="user">
+          {auth.isLoggedin && (
+            <div className="user">
           <img
             src="https://img.icons8.com/ios/50/000000/gender-neutral-user.png"
             alt="user-dp"
             id="user-dp"
           />
-          <span>John Doe</span>
+          <span>{auth.user.name}</span>
         </div>
+        )}
+         
         <div className="nav-links">
           <ul>
-            <li>
+            {!auth.isLoggedin && (
+              <li>
               <Link to="/login">Log in</Link>
             </li>
-            <li>
-              <Link to="/logout">Log out</Link>
-            </li>
+            )}
+            
+            {auth.isLoggedin && <li onClick={this.logOut}>Logout</li>}  
+            
+
+            {!auth.isLoggedin && (
             <li>
               <Link to="/signup">Register</Link>
             </li>
+             )}
+
+
           </ul>
         </div>
       </div>
     </nav>
   );
 }
-export default Navbar;
+}
+function mapStateToProps(state) {
+  return {
+     auth:state.auth,
+   };
+ }
+
+export default connect(mapStateToProps)(Navbar);
