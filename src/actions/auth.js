@@ -6,7 +6,8 @@ import {
   LOG_OUT,
   SIGNUP_START,
   SIGNUP_FAILED,
-  SIGNUP_SUCCESS
+  SIGNUP_SUCCESS,
+  CLEAR_AUTH_STATE
 } from "./actionTypes";
 import { APIUrl } from "../helpers/urls";
 import { getFormBody } from "../helpers/utils";
@@ -30,15 +31,16 @@ export function loginSuccess(user) {
     user
   };
 }
-
 export function login(email, password) {
   return (dispatch) => {
     dispatch(startLogin());
     const url = APIUrl.login();
+    // const token = <eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiSm9obiBEb2UiLCJwYXNzd29yZCI6IjEyMzQ1Njc4OTAiLCJpZCI6IiJ9.4S03H7ttjy5OuzRakhJNabjKjnNTVgsDA8x35CnuHAI>;
     fetch(url, {
       method: "POST",
       headers: {
-        "Content-Type": "application/x-ww-form-urlencoded"
+        "Content-Type": "application/x-ww-form-urlencoded",
+        Authorization: `Bearer $(token)`
       },
       body: getFormBody({ email, password })
     })
@@ -114,5 +116,11 @@ export function signupSuccessful(user) {
   return {
     type: SIGNUP_SUCCESS,
     user
+  };
+}
+
+export function clearAuthState() {
+  return {
+    type: CLEAR_AUTH_STATE
   };
 }
